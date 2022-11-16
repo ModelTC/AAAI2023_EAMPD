@@ -15,8 +15,10 @@ We recommend that participants use [United-Perception](https://github.com/ModelT
 
 | model_id | backbone        | bs     | epoch | Bag of tricks | eql  | top1 (test1w) |
 | -------- | --------------- | ------ | ----- | ------------- | ---- | ------------- |
-| 1        | resnet18        | 4 * 64 | 100   | yes(strikes)  | yes  | 88.09         |
-| 2        | resnet18c_x0_25 | 4 * 64 | 100   | yes(strikes)  | yes  | 87.01         |
+| 1        | [resnet18](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/configs/res18_strikes_100e_bce.yaml)        | 4 * 64 | 100   | yes(strikes)  | no   | 86.88         |
+| 2        | [resnet18](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/configs/res18_strikes_100e_bce_eql.yaml)        | 4 * 64 | 100   | yes(strikes)  | yes  | 88.09         |
+| 3        | [resnet18c_x0_25](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/configs/res18_0.25_strikes_100e_bce.yaml) | 4 * 64 | 100   | yes(strikes)  | no   | 84.52         |
+| 4        | [resnet18c_x0_25](res18_0.25_strikes_100e_bce_eql.yaml) | 4 * 64 | 100   | yes(strikes)  | yes  | 87.01         |
 
 You can reproduce the above results by following these steps:
 
