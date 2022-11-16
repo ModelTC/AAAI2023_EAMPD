@@ -13,10 +13,10 @@ WeChat: Join by scanning the following QR code.
 
 We recommend that participants use [United-Perception](https://github.com/ModelTC/United-Perception/tree/main/up) to train the model and provide two baseline models (resnet18 and resnet18c_x0_25). The results are as follows:
 
-| model_id | backbone        | bs     | epoch | Bag of tricks | kd   | rep(type) | eql  | top1 (test1w) |
-| -------- | --------------- | ------ | ----- | ------------- | ---- | --------- | ---- | ------------- |
-| 1        | resnet18        | 4 * 64 | 100   | yes(strikes)  | no   | no        | yes  | 88.09         |
-| 2        | resnet18c_x0_25 | 4 * 64 | 100   | yes(strikes)  | no   | no        | yes  | 87.01         |
+| model_id | backbone        | bs     | epoch | Bag of tricks | eql  | top1 (test1w) |
+| -------- | --------------- | ------ | ----- | ------------- | ---- | ------------- |
+| 1        | resnet18        | 4 * 64 | 100   | yes(strikes)  | yes  | 88.09         |
+| 2        | resnet18c_x0_25 | 4 * 64 | 100   | yes(strikes)  | yes  | 87.01         |
 
 You can reproduce the above results by following these steps:
 
@@ -25,7 +25,8 @@ You can reproduce the above results by following these steps:
 ```python
 git clone https://github.com/ModelTC/United-Perception
 cd United-Perception
-sh easy_setup.sh
+# in this challenge, we only need python requirements
+pip install --user -r requirements.txt 
 ```
 
 **2. prepare your dataset**
@@ -62,8 +63,24 @@ Change the data path in the provided configuration file to your data path:
 
 You can easily train the model with the training scripts we provide:
 
-```
+```shell
 sh scripts/dist_train.sh num_gpus your_config_path
+
+#!/bin/bash
+
+ROOT=../
+T=`date +%m%d%H%M`
+export ROOT=$ROOT
+cfg=$2
+export PYTHONPATH=$ROOT:$PYTHONPATH
+# in this challenge, we only need cls tasks
+export DEFAULT_TASKS=cls
+python -m up train \
+  --ng=$1 \
+  --launch=pytorch \
+  --config=$cfg \
+  --display=10 \
+  2>&1 | tee log.train.$T.$(basename $cfg) 
 ```
 
 **4. export the onnx file**
