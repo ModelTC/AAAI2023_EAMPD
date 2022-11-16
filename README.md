@@ -7,7 +7,7 @@ Slack: Join by clicking [this link](https://join.slack.com/t/w1666859556-fgw3880
 
 WeChat: Join by scanning the following QR code.
 
-![wechat](C:\document\商汤实习\AAAI challenge\figs\wechat.png)
+![wechat](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/wechat.png)
 
 ## Training and Submission
 
@@ -99,7 +99,7 @@ python -m up to_onnx \
 
 After exporting the onnxfile, submit your onnxfile to [online judge](https://practical-dl.sensecore.cn/#/onlineJudge) to get your scores.
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\submit.png" alt="submit" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/submit.png" alt="submit" style="zoom:25%;" />
 
 ## OpenI Platform
 
@@ -109,33 +109,33 @@ We provide training resources for participants on the OpenI platform where the p
 
 You can first register your account in https://openi.org.cn/ and migrate the  [United-Perception](https://github.com/ModelTC/United-Perception/tree/main/up)  repo to openi as follows:
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\home.png" alt="home" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/home.png" alt="home" style="zoom:25%;" />
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\migrate.png" alt="migrate" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/migrate.png" alt="migrate" style="zoom:25%;" />
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\repo.png" alt="repo" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/repo.png" alt="repo" style="zoom:25%;" />
 
 **2. build your dataset**
 
 You can build your own datasets by associating datasets we provided.
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\data1.png" alt="data1" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/data1.png" alt="data1" style="zoom:25%;" />
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\data2.png" alt="data2" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/data2.png" alt="data2" style="zoom:25%;" />
 
 **3. Debug and Train**
 
 The OpenI provides convenient debugging and training functions. Participants can debug their code by following the steps below.
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\debug.png" alt="debug" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug.png" alt="debug" style="zoom:25%;" />
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\debug2.png" alt="debug2" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug2.png" alt="debug2" style="zoom:25%;" />
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\debug3.png" alt="debug3" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug3.png" alt="debug3" style="zoom:25%;" />
 
-<img src="C:\document\商汤实习\AAAI challenge\figs\debug4.png" alt="debug4" style="zoom:25%;" />
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug4.png" alt="debug4" style="zoom:25%;" />
 
-![debug5](C:\document\商汤实习\AAAI challenge\figs\debug5.png)
+![debug5](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug5.png)
 
 You can choose your most similar tools to debug your code.
 
