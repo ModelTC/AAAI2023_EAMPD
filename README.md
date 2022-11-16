@@ -135,8 +135,8 @@ The OpenI provides convenient debugging and training functions. Participants can
 
 <img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug4.png" alt="debug4" style="zoom:25%;" />
 
-![debug5](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug5.png)
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug5.png" alt="debug4" style="zoom:25%;" />
 
 You can choose your most similar tools to debug your code.
 
-![image-20221116010257015](C:\Users\17989\AppData\Roaming\Typora\typora-user-images\image-20221116010257015.png)
+<img src="https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/figs/debug6.png" alt="debug4" style="zoom:25%;" />
