@@ -101,6 +101,8 @@ T=`date +%m%d%H%M`
 export ROOT=$ROOT
 cfg=$2
 export PYTHONPATH=$ROOT:$PYTHONPATH
+# in this challenge, we only need cls tasks
+export DEFAULT_TASKS=cls
 CPUS_PER_TASK=${CPUS_PER_TASK:-2}
 
 python -m up to_onnx \
