@@ -9,9 +9,7 @@ WeChat: Join by scanning the following QR code.
 
 ![wechat](./figs/wechat.png)
 
-## TrainEval
-
-[QuickStart](./train.md)
+## [Train Example](./train.md)
 
 ## Submitting
 
@@ -19,6 +17,4 @@ After exporting the onnxfile, submit your onnxfile to [online judge](https://pra
 
 <img src="./figs/submit.png" alt="submit" style="zoom:25%;" />
 
-## OpenI Platform
-
-[Example](./openI.md)
+## [OpenI Platform Example](./openI.md)
