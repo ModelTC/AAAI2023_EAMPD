@@ -2,6 +2,8 @@
 
 We recommend that participants use [United-Perception](https://github.com/ModelTC/United-Perception/tree/main/up) to train the model and provide two baseline models (resnet18 and resnet18c_x0_25). The results are as follows:
 
+[EQL loss paper](https://arxiv.org/abs/2210.05566)
+
 | model_id | backbone        | bs     | epoch | Bag of tricks | eql  | top1 (test1w) |
 | -------- | --------------- | ------ | ----- | ------------- | ---- | ------------- |
 | 1        | [resnet18](https://github.com/ModelTC/AAAI2023_EAMPD/blob/master/configs/res18_strikes_100e_bce.yaml)        | 4 * 64 | 100   | yes(strikes)  | no   | 86.88         |
