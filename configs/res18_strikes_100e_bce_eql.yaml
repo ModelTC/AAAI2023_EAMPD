@@ -1,6 +1,10 @@
 num_classes: &num_classes 89
 runtime:
   task_names: cls
+  runner:
+    type: base
+    kwargs:
+      work_dir: /tmp/output/
 random_resized_crop: &random_resized_crop
  type: torch_random_resized_crop
  kwargs:
