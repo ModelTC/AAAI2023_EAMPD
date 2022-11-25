@@ -136,3 +136,11 @@ python -m up to_onnx \
 ### 5. More Detail
 
 Please refer [United-Perception](https://github.com/ModelTC/United-Perception/tree/main/up) docs.
+
+### 6. Hardware Performance
+<img src="./figs/T4.png" alt="repo" style="zoom:50%;" />
+<img src="./figs/rv.png" alt="repo" style="zoom:50%;" />
+<img src="./figs/snpe.png" alt="repo" style="zoom:50%;" />
+<img src="./figs/Ti.png" alt="repo" style="zoom:50%;" />
+<img src="./figs/stpu.png" alt="repo" style="zoom:50%;" />
+<img src="./figs/atlas300.png" alt="repo" style="zoom:50%;" />
