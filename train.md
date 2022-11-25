@@ -144,3 +144,21 @@ Please refer [United-Perception](https://github.com/ModelTC/United-Perception/tr
 <img src="./figs/Ti.png" alt="repo" style="zoom:50%;" />
 <img src="./figs/stpu.png" alt="repo" style="zoom:50%;" />
 <img src="./figs/atlas300.png" alt="repo" style="zoom:50%;" />
+
+
+
+
+
+### 7. Supported Operator List
+
+
+
+| Platform     | operator list                                                |
+| ------------ | ------------------------------------------------------------ |
+| T4           | https://docs.nvidia.com/deeplearning/tensorrt/support-matrix/index.html |
+| Atlas300     | https://support.huaweicloud.com/api-ge-atlas300app3000/atlasge_07_0094.html |
+| rv1126       | https://github.com/rockchip-linux/rknn-toolkit/blob/master/doc/RKNN_OP_Support_V1.7.3.md |
+| snpe-gpu/dsp | https://developer.qualcomm.com/sites/default/files/docs/snpe/supported_onnx_ops.html |
+| Ti           | https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/07_03_00_07/exports/docs/tidl_j7_02_00_00_07/ti_dl/docs/user_guide_html/md_tidl_layers_info.html |
+| STPU         | https://practical-dl.sensecore.cn/#/stpu                     |
+
