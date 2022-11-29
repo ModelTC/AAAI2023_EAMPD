@@ -1,6 +1,6 @@
 ## OpenI Platform
 
-We provide training resources for participants on the OpenI platform where the participants can use two v100 to train their models. If you want to use the GPUs we provided,  please register your account in https://openi.org.cn/  and submit your username and mails to [here](https://docs.qq.com/sheet/DT0taRGNzRkFzbFNa?tab=BB08J2).  You can check if you have successfully enabled the permission [here](https://openi.pcl.ac.cn/AAA2023).
+We provide training resources for participants on the OpenI platform where the participants can use two v100 to train their models. If you want to use the GPUs we provided,  please register your account in https://openi.org.cn/  and submit your username and mails to [here](https://docs.qq.com/sheet/DT0taRGNzRkFzbFNa?tab=BB08J2).  You can check if you have successfully enabled the permission [here](https://openi.pcl.ac.cn/AAAI2023).
 
 <img src=".\figs\group.png" alt="group" style="zoom:25%;" />
 
